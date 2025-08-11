@@ -144,7 +144,9 @@ public class Main {
 
                     manager.searchstudent(SearchstdName);
                     break;
+                case 13: System.out.println("Exit");
+                default:System.out.println("\"Invalid choice! Please try again.");
             }
-        } while (choice != 14);
+        } while (choice != 13);
     }
 }
